@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    
+    
+        <h1>AGORA, é a mesma coisa do outro,só que fora da janela que aparecia em cima</h1>
+        <button onclick="inicio()">de inicio aqui, pvf</button>
+        <section id="resultado">
+            <p>Aqui vai o destino sera escrito... </p>
+        </section>
+        <script>
+            function inicio() {
+                let nome = window.prompt('me fala teu nome,faiz favor')
+                let res = window.document.getElementById('resultado')
+                res.innerHTML = `<p>EAEEE, <strong>${nome}</strong>! SEJA  BEM VINDO AOS GURI!!! &#x1F596;`
+            }
+        </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+</head>
+<body>
+    
+        <h1>Oia matematica ai enfim.</h1>
+        <button onclick="calcular()">Clica aqui,e pota alguns numeros na janela que vai aparecer depois</button>
+        <section id="res"><p>O dobro de 6 é 12 e a metade é 3!</p></section>
+    
+        <script>
+            
+            window.alert('oia só,eu voltei hye hehehe')
+
+            function calcular() {
+                let n1 = Number(window.prompt('Digita um numero, vou mostra o dobro e a metade dele'))
+                let res = document.querySelector('section#res')
+    
+                res.innerHTML = `<p>O dobro de ${n1} é ${n1*2} e a metade é ${n1/2}!
+                     muito irado, né?
+                    </p>`
+            }
+        </script>
+    
+</body>
+</html>
